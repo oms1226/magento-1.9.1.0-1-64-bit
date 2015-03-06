@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home1/p11600/magento-1.9.1.0-1-64-bit/scripts/setenv.sh
+
+exec /home1/p11600/magento-1.9.1.0-1-64-bit/php/sbin/.php-fpm.bin -y /home1/p11600/magento-1.9.1.0-1-64-bit/php/etc/php-fpm.conf -p /home1/p11600/magento-1.9.1.0-1-64-bit/php/var/ -c /home1/p11600/magento-1.9.1.0-1-64-bit/php/etc/php.ini "$@"

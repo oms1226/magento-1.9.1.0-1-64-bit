@@ -1,0 +1,11 @@
+prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.1
+Libs: -L${libdir} -ltiff
+Libs.private: -lz 
+Cflags: -I${includedir}

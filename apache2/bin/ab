@@ -1,0 +1,3 @@
+#!/bin/sh
+. /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/envvars
+exec /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/ab.bin "$@"

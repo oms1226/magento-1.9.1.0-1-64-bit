@@ -1,0 +1,168 @@
+============ CHANGELOG =============
+
+Version 1.9.1.0-1      2015-02-07
+* Updated PHP to 5.4.37
+* Updated Apache to 2.4.12
+* Updated MySQL to 5.5.42 for Linux and Windows
+* Updated PageSpeed to 1.9.32.3
+* Updated phpMyAdmin to 4.3.7
+* Updated OpenSSL to 1.0.1k (Linux and OS X)
+* Updated PHP to 5.4.36
+
+Version 1.9.1.0-0      2014-11-28
+* Updated Magento to 1.9.1.0
+* Updated phpMyAdmin to 4.2.12
+
+Version 1.9.0.1-2      2014-10-21
+* (Version only available for OS X)
+* Fix MySQL startup issue for OS X Yosemite
+* Updated PHP to 5.4.34
+* Updated OpenSSL to 1.0.1j
+* Added OCI8 module. It requires InstantClient 11.2.
+* Updated phpMyAdmin to 4.2.9.1
+* Updated MySQL to 5.5.40
+
+Version 1.9.0.1-2      2014-09-10
+* Applied patch SUPEE-3762 to fix SOAP API bug
+* Updated phpMyAdmin to 4.2.8
+
+Version 1.9.0.1-1      2014-08-27
+* Moved application to root URL in Cloud Images and Virtual Machines
+* Updated MySQL to 5.5.39
+* Updated PHP to 5.4.32
+* Updated OpenSSL to 1.0.1i
+* Updated phpMyAdmin to 4.2.7.1
+* Updated Apache to 2.4.10
+* Updated XDebug to 2.2.5
+* Updated XCache to 3.1.0
+* Updated mongo-php-driver to 1.5.4
+* Updated php-couchbase to 1.1.5
+* Updated Libxslt to 1.1.28
+* Updated Libxml2 to 2.9.1
+* Fixed module installation issue
+
+Version 1.9.0.1-0      2014-05-19
+* Updated Magento to 1.9.0.1
+
+Version 1.9.0.0-0      2014-05-14
+* Updated Magento to 1.9.0.0
+* Fixed link to admin panel in welcome page
+* Added libv8 and v8js PHP extension for Linux and OS X
+
+Version 1.8.1.0-3      2014-04-24
+* Fixed an issue with X-Frame-Options configuration
+
+Version 1.8.1.0-2      2014-04-08
+* Updated OpenSSL to 1.0.1g
+* Updated phpMyAdmin to 4.1.12
+* Improved Apache configuration for PHP-FPM mode
+* Updated Apache to 2.4.9
+
+Version 1.8.1.0-1      2014-03-20
+* Updated Beetailer to 3.1.0
+* Fixed support for REST API
+* Updated PHP to 5.4.26
+* Updated phpMyAdmin to 4.1.9
+* Updated MySQL to 5.5.36
+* Updated Varnish to 3.0.5
+* Updated phpMyAdmin to 4.1.4
+* Updated OpenSSL to 1.0.1f in Linux and OSX
+
+Version 1.8.1.0-0      2013-12-16
+* Updated Magento to 1.8.1.0
+* Updated phpMyAdmin to 4.1.0
+* Updated PHP to 5.4.23
+* Updated Magento to 1.8.1.0
+* Improved FTP configuration
+* Updated phpMyAdmin to 4.0.9
+
+Version 1.8.0.0-2      2013-11-13
+* Added Varnish 3.0.3
+* Updated PHP to 5.4.21
+* Updated phpMyAdmin to 4.0.8
+
+Version 1.8.0.0-1      2013-10-09
+* Added PHP-FPM support for cloud images and VMs
+
+Version 1.8.0.0-0      2013-09-26
+* Updated Magento to 1.8.0.0
+* Updated PHP to 5.4.20
+* Configure Magento to use MySQL socket on Linux and OS X
+
+Version 1.7.0.2-4      2013-08-27
+* Updated PHP to 5.4.19
+* Updated Apache to 2.4.6
+* Added logrotate configuration files
+* Added imagick PHP extension for Linux and OS X
+* Added apr-dbd MySQL driver
+* Improved mod_pagespeed settings for better performance (Unix)
+
+Version 1.7.0.2-2      2013-07-16
+* Added mod_pagespeed 1.6.29.2 for Linux
+* Updated PHP to 5.4.17
+* Updated MySQL to 5.5.32
+
+Version 1.7.0.2-1      2013-06-10
+* Updated PHP to 5.4.16
+* Updated phpMyAdmin to 4.0.3
+* Updated Beetailer to 3.0.0
+* Updated phpMyAdmin to 4.0.1
+* Updated PHP to 5.4.15
+* Updated MySQL to 5.5.30
+* Updated Apache to 2.4.4
+* Updated OpenSSL to 1.0.1e
+* Improved the Magento installation by allowing Production
+and Development modes.
+* Updated Memcache to 2.2.7
+* Updated XCache to 3.0.0
+* Updated curl to 7.27.0
+* Updated AWS SDK to 1.5.13
+* Added ModSecurity Apache module 2.6.7
+* Added Mail, Net_Socket and Net_SMTP pear packages
+* Increased the max allowed size for upload files to 32M
+
+Version 1.7.0.2-0      2012-07-11
+* Updated Magento to 1.7.0.2
+
+Version 1.7.0.1-0      2012-06-21
+* Updated Magento to 1.7.0.1
+* Updated PHP to 5.3.14
+
+Version 1.7.0.0-0      2012-05-02
+* Update Magento to 1.7.0.0
+
+Version 1.6.2.0-0      2012-04-27
+* Update Magento to 1.6.2.0
+* Update PHP to 5.3.9
+* Update phpMyAdmin 3.4.9
+* Update MySQL to 5.5.16
+* Update Apache to 2.2.21
+* Update AWS SDK for PHP to 1.5.1
+
+Version 1.6.1.0-0      2011-10-20
+* Updated Magento to 1.6.1.0
+* Updated phpMyAdmin to 3.4.6
+
+Version 1.6.0.0-2      2011-09-30
+* Added mail support with SMTP
+* Mark as read notifications
+* Fix updateip for Virtual Appliances
+
+Version 1.6.0.0-1      2011-09-08
+* Fix issue updating the domain in the application
+
+Version 1.6.0.0-0      2011-08-23
+* Update Magento to 1.6.0.0
+* Disable MySQL binary logging
+* Don't allow to execute the ctlscript.sh script as root 
+when the stack is installed as a non root user
+
+Version 1.5.1.0-0      2011-05-16
+* Update Magento to 1.5.1.0
+* Update phpMyAdmin to 3.3.10
+* Update PHP to 5.3.5
+* Bundles Beetailer 2.3.5
+
+Version 1.5.0.1-0      2011-04-15
+* Initial release, bundles Apache 2.2.17, phpMyAdmin 2.3.3.10,
+PHP 5.2.17, MySQL 5.1.56 and Magento 1.5.0.1

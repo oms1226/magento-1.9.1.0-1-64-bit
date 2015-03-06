@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /home1/p11600/magento-1.9.1.0-1-64-bit/scripts/setenv.sh
+SASL_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib/sasl2"
+            export SASL_PATH
+exec /home1/p11600/magento-1.9.1.0-1-64-bit/common/sbin/.saslpasswd2.bin -f "/home1/p11600/magento-1.9.1.0-1-64-bit/common/etc/sasldb2" "$@"

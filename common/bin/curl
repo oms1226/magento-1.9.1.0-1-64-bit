@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib:$LD_LIBRARY_PATH"
+DYLD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib:$DYLD_LIBRARY_PATH"
+CURL_CA_BUNDLE="/home1/p11600/magento-1.9.1.0-1-64-bit/common/openssl/certs/curl-ca-bundle.crt"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export CURL_CA_BUNDLE
+exec /home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/curl.bin "$@"

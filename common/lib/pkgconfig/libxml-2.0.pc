@@ -1,0 +1,13 @@
+prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.1
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:   -lz  -liconv -lm  
+Cflags: -I${includedir}/libxml2 
