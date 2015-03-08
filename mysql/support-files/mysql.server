@@ -25,7 +25,7 @@
 # Description: MySQL is a very fast and reliable SQL database engine.
 ### END INIT INFO
  
-# If you install MySQL on some other places than /home1/p11600/magento-1.9.1.0-1-64-bit/mysql, then you
+# If you install MySQL on some other places than /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql, then you
 # have to do one of the following things for this script to work:
 #
 # - Run this script from within the MySQL installation directory
@@ -63,14 +63,14 @@ lock_file_path="$lockdir/mysql"
 mysqld_pid_file_path=
 if test -z "$basedir"
 then
-  basedir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql
-  bindir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin
+  basedir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql
+  bindir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin
   if test -z "$datadir"
   then
-    datadir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data
+    datadir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
   fi
-  sbindir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin
-  libexecdir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin
+  sbindir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin
+  libexecdir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin
 else
   bindir="$basedir/bin"
   if test -z "$datadir"

@@ -21,15 +21,15 @@
 APRUTIL_MAJOR_VERSION="1"
 APRUTIL_DOTTED_VERSION="1.5.3"
 
-prefix="/home1/p11600/magento-1.9.1.0-1-64-bit/common"
+prefix="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common"
 exec_prefix="${prefix}"
 bindir="${exec_prefix}/bin"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include/apr-${APRUTIL_MAJOR_VERSION}"
 
 LIBS="-lexpat -liconv"
-INCLUDES="-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include"
-LDFLAGS="-L/home1/p11600/magento-1.9.1.0-1-64-bit/common//lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib"
+INCLUDES="-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include"
+LDFLAGS="-L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common//lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib"
 LDAP_LIBS="-lldap -llber"
 DBM_LIBS="  "
 

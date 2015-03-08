@@ -28,8 +28,8 @@ my @defaults_options;   #  Leading --no-defaults, --defaults-file, etc.
 $opt_example       = 0;
 $opt_help          = 0;
 $opt_log           = undef();
-$opt_mysqladmin    = "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqladmin";
-$opt_mysqld        = "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld";
+$opt_mysqladmin    = "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqladmin";
+$opt_mysqld        = "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld";
 $opt_no_log        = 0;
 $opt_password      = undef();
 $opt_tcp_ip        = 0;
@@ -215,7 +215,7 @@ sub defaults_for_group
 
 ####
 #### Init log file. Check for appropriate place for log file, in the following
-#### order:  my_print_defaults mysqld datadir, /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share
+#### order:  my_print_defaults mysqld datadir, /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share
 ####
 
 sub init_log
@@ -229,7 +229,7 @@ sub init_log
   }
   if (!defined($logdir))
   {
-    $logdir= "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share" if (-d "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share" && -w "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share");
+    $logdir= "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share" if (-d "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share" && -w "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share");
   }
   if (!defined($logdir))
   {
@@ -484,7 +484,7 @@ sub list_defaults_files
   return grep { defined $_ and not $seen{$_}++ and -f $_ and -r $_ }
               ('/etc/my.cnf',
                '/etc/mysql/my.cnf',
-               '/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/my.cnf',
+               '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/my.cnf',
                ($ENV{MYSQL_HOME} ? "$ENV{MYSQL_HOME}/my.cnf" : undef),
                $opt{'extra-file'},
                ($ENV{HOME} ? "$ENV{HOME}/.my.cnf" : undef));
@@ -688,7 +688,7 @@ sub example
 #   (as per Linux/Unix standard). You may even replace the
 #   /etc/init.d/mysql.server script with it.
 #
-#   Before using, you must create a my.cnf file either in /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/my.cnf
+#   Before using, you must create a my.cnf file either in /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/my.cnf
 #   or /root/.my.cnf and add the [mysqld_multi] and [mysqld#] groups.
 #
 #   The script can be found from support-files/mysqld_multi.server.sh
@@ -696,17 +696,17 @@ sub example
 #
 
 [mysqld_multi]
-mysqld     = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld_safe
-mysqladmin = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqladmin
+mysqld     = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld_safe
+mysqladmin = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqladmin
 user       = multi_admin
 password   = my_password
 
 [mysqld2]
 socket     = /tmp/mysql.sock2
 port       = 3307
-pid-file   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data2/hostname.pid2
-datadir    = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data2
-language   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share/mysql/english
+pid-file   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data2/hostname.pid2
+datadir    = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data2
+language   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share/mysql/english
 user       = unix_user1
 
 [mysqld3]
@@ -715,25 +715,25 @@ ledir      = /path/to/mysqld-binary/
 mysqladmin = /path/to/mysqladmin
 socket     = /tmp/mysql.sock3
 port       = 3308
-pid-file   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data3/hostname.pid3
-datadir    = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data3
-language   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share/mysql/swedish
+pid-file   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data3/hostname.pid3
+datadir    = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data3
+language   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share/mysql/swedish
 user       = unix_user2
 
 [mysqld4]
 socket     = /tmp/mysql.sock4
 port       = 3309
-pid-file   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data4/hostname.pid4
-datadir    = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data4
-language   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share/mysql/estonia
+pid-file   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data4/hostname.pid4
+datadir    = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data4
+language   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share/mysql/estonia
 user       = unix_user3
  
 [mysqld6]
 socket     = /tmp/mysql.sock6
 port       = 3311
-pid-file   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data6/hostname.pid6
-datadir    = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data6
-language   = /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share/mysql/japanese
+pid-file   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data6/hostname.pid6
+datadir    = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data6
+language   = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share/mysql/japanese
 user       = unix_user4
 EOF
   exit(0);

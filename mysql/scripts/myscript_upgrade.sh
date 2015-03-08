@@ -17,6 +17,6 @@ fi
 
 
 
-/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/scripts/ctl.sh start mysql > /dev/null
+/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/scripts/ctl.sh start mysql > /dev/null
 sleep 35
 

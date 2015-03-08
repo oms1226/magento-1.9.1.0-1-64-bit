@@ -3,18 +3,18 @@
 # Created by configure
 
 CC="gcc"; export CC
-CFLAGS="-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64"; export CFLAGS
-CPPFLAGS="-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include"; export CPPFLAGS
-LDFLAGS="-L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -liconv"; export LDFLAGS
+CFLAGS="-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64"; export CFLAGS
+CPPFLAGS="-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include"; export CPPFLAGS
+LDFLAGS="-L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -liconv"; export LDFLAGS
 "./configure" \
-"--prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/apache2" \
+"--prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2" \
 "--enable-so" \
 "--enable-mods-shared=most" \
 "--disable-auth_dbm" \
 "--without-berkeley-db" \
 "--enable-deflate" \
 "--enable-ssl" \
-"--with-ssl=/home1/p11600/magento-1.9.1.0-1-64-bit/common" \
+"--with-ssl=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common" \
 "--enable-proxy" \
 "--enable-proxy-http" \
 "--enable-proxy-balancer" \
@@ -22,13 +22,13 @@ LDFLAGS="-L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -liconv"; export LD
 "--with-ldap" \
 "--enable-authnz-ldap" \
 "--enable-ldap" \
-"--with-apr=/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/apr-1-config" \
-"--with-apu=/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/apr-1-config" \
-"--with-pcre=/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/pcre-config" \
+"--with-apr=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin/apr-1-config" \
+"--with-apu=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin/apr-1-config" \
+"--with-pcre=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin/pcre-config" \
 "--enable-mpms-shared=all" \
 "--with-mpm=prefork" \
 "CC=gcc" \
-"CFLAGS=-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64" \
-"LDFLAGS=-L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -liconv" \
-"CPPFLAGS=-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include" \
+"CFLAGS=-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64" \
+"LDFLAGS=-L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -liconv" \
+"CPPFLAGS=-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include" \
 "$@"

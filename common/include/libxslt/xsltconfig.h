@@ -120,7 +120,7 @@ extern "C" {
 #ifndef WITH_MODULES
 #define WITH_MODULES
 #endif
-#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib/libxslt-plugins"
+#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib/libxslt-plugins"
 #endif
 
 /**

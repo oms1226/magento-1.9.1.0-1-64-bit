@@ -16,7 +16,7 @@ KILL_MYSQLD=1;
 MYSQLD=
 niceness=0
 mysqld_ld_preload=
-mysqld_ld_library_path=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/lib
+mysqld_ld_library_path=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/lib
 
 # Initial logging status: error log is not open, and not using syslog
 logging=init
@@ -369,12 +369,12 @@ set_malloc_lib() {
 # First, try to find BASEDIR and ledir (where mysqld is)
 #
 
-if echo '/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share' | grep '^/home1/p11600/magento-1.9.1.0-1-64-bit/mysql' > /dev/null
+if echo '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share' | grep '^/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql' > /dev/null
 then
-  relpkgdata=`echo '/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share' | sed -e 's,^/home1/p11600/magento-1.9.1.0-1-64-bit/mysql,,' -e 's,^/,,' -e 's,^,./,'`
+  relpkgdata=`echo '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share' | sed -e 's,^/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql,,' -e 's,^/,,' -e 's,^,./,'`
 else
   # pkgdatadir is not relative to prefix
-  relpkgdata='/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/share'
+  relpkgdata='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/share'
 fi
 
 MY_PWD=`pwd`
@@ -408,8 +408,8 @@ then
   ledir="$MY_PWD/sbin"			# Where mysqld is
 # Since we didn't find anything, used the compiled-in defaults
 else
-  MY_BASEDIR_VERSION='/home1/p11600/magento-1.9.1.0-1-64-bit/mysql'
-  ledir='/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin'
+  MY_BASEDIR_VERSION='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql'
+  ledir='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin'
 fi
 
 
@@ -431,7 +431,7 @@ then
   DATADIR=$MY_BASEDIR_VERSION/var
 # Or just give up and use our compiled-in default
 else
-  DATADIR=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data
+  DATADIR=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
 fi
 
 if test -z "$MYSQL_HOME"
@@ -468,12 +468,12 @@ then
 elif test -x ./bin/my_print_defaults
 then
   print_defaults="./bin/my_print_defaults"
-elif test -x /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/my_print_defaults
+elif test -x /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/my_print_defaults
 then
-  print_defaults="/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/my_print_defaults"
-elif test -x /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysql_print_defaults
+  print_defaults="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/my_print_defaults"
+elif test -x /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysql_print_defaults
 then
-  print_defaults="/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysql_print_defaults"
+  print_defaults="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysql_print_defaults"
 else
   print_defaults="my_print_defaults"
 fi
@@ -513,7 +513,7 @@ else
   done
   # Give up and use compiled-in default
   if [ -z "${plugin_dir}" ]; then
-    plugin_dir='/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/lib/plugin'
+    plugin_dir='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/lib/plugin'
   fi
 fi
 plugin_dir="${plugin_dir}${PLUGIN_VARIANT}"

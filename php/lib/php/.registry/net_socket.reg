@@ -11,7 +11,7 @@ a:22:{s:7:"attribs";a:6:{s:15:"packagerversion";s:5:"1.9.1";s:7:"version";s:3:"2
 - Make $size parameter to gets() optional (PEAR Bug #14433)
 - Don't overwrite $errstr set by fsockopen (PEAR Bug #14448)
 - Avoid an infinite loop if fwrite() returns 0 (PEAR Bug #14619)
-- CS cleanup (PEAR Bug #14803)";}}s:8:"filelist";a:1:{s:14:"Net/Socket.php";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"4ec2a7c365c71353ad1f4a8a287ba88b";s:4:"name";s:14:"Net/Socket.php";s:4:"role";s:3:"php";s:12:"installed_as";s:65:"/home1/p11600/magento-1.9.1.0-1-64-bit/php/lib/php/Net/Socket.php";}}s:12:"_lastversion";N;s:7:"dirtree";a:1:{s:54:"/home1/p11600/magento-1.9.1.0-1-64-bit/php/lib/php/Net";b:1;}s:3:"old";a:7:{s:7:"version";s:6:"1.0.10";s:12:"release_date";s:10:"2010-10-16";s:13:"release_state";s:6:"stable";s:15:"release_license";s:11:"PHP License";s:13:"release_notes";s:277:"QA release
+- CS cleanup (PEAR Bug #14803)";}}s:8:"filelist";a:1:{s:14:"Net/Socket.php";a:5:{s:14:"baseinstalldir";s:1:"/";s:6:"md5sum";s:32:"4ec2a7c365c71353ad1f4a8a287ba88b";s:4:"name";s:14:"Net/Socket.php";s:4:"role";s:3:"php";s:12:"installed_as";s:65:"/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/lib/php/Net/Socket.php";}}s:12:"_lastversion";N;s:7:"dirtree";a:1:{s:54:"/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/lib/php/Net";b:1;}s:3:"old";a:7:{s:7:"version";s:6:"1.0.10";s:12:"release_date";s:10:"2010-10-16";s:13:"release_state";s:6:"stable";s:15:"release_license";s:11:"PHP License";s:13:"release_notes";s:277:"QA release
 - Configurable newline sequence (PEAR Bug #14181)
 - Make $size parameter to gets() optional (PEAR Bug #14433)
 - Don't overwrite $errstr set by fsockopen (PEAR Bug #14448)

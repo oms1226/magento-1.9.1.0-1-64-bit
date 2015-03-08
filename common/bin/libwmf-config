@@ -11,7 +11,7 @@ case `uname` in
     exec_prefix="$prefix"
   ;;
   *)
-    prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+    prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
     exec_prefix=${prefix}
   ;;
 esac
@@ -93,13 +93,13 @@ if test "$echo_exec_prefix" = "yes"; then
 	echo $exec_prefix
 fi
 
-wmf_cflags="-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include/freetype2 -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include  "
-wmf_liblflags="  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -lfreetype -lz -lbz2  -lexpat -ljpeg -lpng -lz -lm"
+wmf_cflags="-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include/freetype2 -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include  "
+wmf_liblflags="  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -lfreetype -lz -lbz2  -lexpat -ljpeg -lpng -lz -lm"
 
 case `uname` in
   CYGWIN*)
-    wmf_cflags=`echo $wmf_cflags | sed -e "s%/home1/p11600/magento-1.9.1.0-1-64-bit/common%$prefix%"`
-    wmf_liblflags=`echo $wmf_liblflags | sed -e "s%/home1/p11600/magento-1.9.1.0-1-64-bit/common%$prefix%"`
+    wmf_cflags=`echo $wmf_cflags | sed -e "s%/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common%$prefix%"`
+    wmf_liblflags=`echo $wmf_liblflags | sed -e "s%/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common%$prefix%"`
   ;;
 esac
 

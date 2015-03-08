@@ -1,13 +1,13 @@
 #! /bin/sh
 
 VARNISH_SERVER_ID=varnish
-VARNISH_PIDFILE="/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID/varnishd.pid"
-VARNISH_SERVER=/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/bin/varnishd
-VARNISH_CONFIG_FILE=/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/etc/varnish/default.vcl
-VARNISH_SECRET_FILE="/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/etc/$VARNISH_SERVER_ID/secret"
+VARNISH_PIDFILE="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID/varnishd.pid"
+VARNISH_SERVER=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/bin/varnishd
+VARNISH_CONFIG_FILE=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/etc/varnish/default.vcl
+VARNISH_SECRET_FILE="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/etc/$VARNISH_SERVER_ID/secret"
 VARNISH_PORT=8081
-VARNISH_WORKING_DIR="/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID"
-VARNISH_STORAGE_FILE="/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID/varnish_storage.bin"
+VARNISH_WORKING_DIR="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID"
+VARNISH_STORAGE_FILE="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/var/$VARNISH_SERVER_ID/varnish_storage.bin"
 VARNISH_STORAGE_SIZE=1G
 VARNISH_STORAGE="file,${VARNISH_STORAGE_FILE},${VARNISH_STORAGE_SIZE}"
 VARNISH_LISTEN_ADDRESS=

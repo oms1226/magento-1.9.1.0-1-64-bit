@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -155,11 +155,11 @@ while test $# -gt 0; do
 	;;
 
     --static-libs)
-	echo ${exec_prefix}/lib/libcurl.a -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -lssl -lcrypto -lldap -lrt -lssl -lcrypto -lz 
+	echo ${exec_prefix}/lib/libcurl.a -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -lssl -lcrypto -lldap -lrt -lssl -lcrypto -lz 
 	;;
 
     --configure)
-      echo " '--prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common' '--with-ssl=/home1/p11600/magento-1.9.1.0-1-64-bit/common' 'CC=gcc' 'CFLAGS= -fPIC -m64' 'LDFLAGS=-L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib' 'CPPFLAGS=-DCURL_WANTS_CA_BUNDLE_ENV -I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include'"
+      echo " '--prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common' '--with-ssl=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common' 'CC=gcc' 'CFLAGS= -fPIC -m64' 'LDFLAGS=-L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib' 'CPPFLAGS=-DCURL_WANTS_CA_BUNDLE_ENV -I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include'"
     ;;
 
     *)

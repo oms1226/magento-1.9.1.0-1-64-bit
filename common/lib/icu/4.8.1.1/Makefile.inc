@@ -25,7 +25,7 @@
 # etc.  If ICU is not installed in this directory, you must change the
 # following line.  There should exist $(prefix)/include/unicode/utypes.h
 # for example.
-prefix = /home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix = ${prefix}
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
@@ -181,9 +181,9 @@ AR = ar
 	ARFLAGS :=  $(ARFLAGS)
 #SH#ARFLAGS=" ${ARFLAGS}"
 CC = gcc
-CFLAGS = -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64 -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings -Wno-long-long $(THREADSCFLAGS) 
+CFLAGS = -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64 -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings -Wno-long-long $(THREADSCFLAGS) 
 CPP = gcc -E
-CPPFLAGS = -I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include $(THREADSCPPFLAGS) $(LIBCPPFLAGS) -I$(prefix)/include
+CPPFLAGS = -I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include $(THREADSCPPFLAGS) $(LIBCPPFLAGS) -I$(prefix)/include
 CXX = g++
 CXXFLAGS =  -O2 -W -Wall -ansi -pedantic -Wpointer-arith -Wwrite-strings -Wno-long-long $(THREADSCXXFLAGS) 
 DEFAULT_MODE = dll
@@ -196,7 +196,7 @@ INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM  =  ${INSTALL}
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
-LDFLAGS = -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib $(RPATHLDFLAGS)
+LDFLAGS = -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib $(RPATHLDFLAGS)
 LIBS = -lpthread -ldl -lm  
 LIB_M = 
 LIB_VERSION = 48.1.1

@@ -5,7 +5,7 @@
 # Modeled after pdflib-config
 
 # installation directories
-prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -68,7 +68,7 @@ while test $# -gt 0; do
 	echo 35
 	;;
     --ldflags)
-	echo  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib
+	echo  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib
 	;;
     --libs)
 	echo -ljpeg -lfreetype -lpng -lz -lm  -liconv
@@ -83,7 +83,7 @@ while test $# -gt 0; do
 	echo "GD library  2.0.35"
 	echo "includedir: $includedir"
 	echo "cflags:     -I${prefix}/include"
-	echo "ldflags:     -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib"
+	echo "ldflags:     -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib"
 	echo "libs:       -ljpeg -lfreetype -lpng -lz -lm  -liconv"
 	echo "libdir:     $libdir"
 	echo "features:   GD_JPEG GD_FREETYPE GD_PNG GD_GIF GD_GIFANIM GD_OPENPOLYGON"

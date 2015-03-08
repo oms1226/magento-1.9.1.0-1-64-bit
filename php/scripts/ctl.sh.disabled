@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PHPFPM_PREFIX="/home1/p11600/magento-1.9.1.0-1-64-bit/php"
+PHPFPM_PREFIX="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php"
 PHPFPM_PIDFILE="$PHPFPM_PREFIX/var/run/php5-fpm.pid"
 PHPFPM_SERVER="$PHPFPM_PREFIX/sbin/php-fpm"
 PHPFPM_CONFIG_FILE="$PHPFPM_PREFIX/etc/php-fpm.conf"

@@ -106,8 +106,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib/engines"
-#define OPENSSLDIR "/home1/p11600/magento-1.9.1.0-1-64-bit/common/openssl"
+#define ENGINESDIR "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib/engines"
+#define OPENSSLDIR "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/openssl"
 #endif
 #endif
 

@@ -42,11 +42,11 @@ ARGV="$@"
 # --------------------                              --------------------
 # 
 # the path to your httpd binary, including options if necessary
-HTTPD='/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+HTTPD='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
 #
 # pick up any necessary environment variables
-if test -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/envvars; then
-  . /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/envvars
+if test -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/envvars; then
+  . /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/envvars
 fi
 #
 # a command that outputs a formatted text version of the HTML at the

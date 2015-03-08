@@ -204,7 +204,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Root directory of the Apache install area */
-#define HTTPD_ROOT "/home1/p11600/magento-1.9.1.0-1-64-bit/apache2"
+#define HTTPD_ROOT "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""

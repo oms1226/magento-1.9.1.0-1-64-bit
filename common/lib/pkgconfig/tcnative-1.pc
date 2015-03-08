@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 TCNATIVE_MAJOR_VERSION=1

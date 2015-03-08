@@ -1,6 +1,6 @@
 #!/bin/sh
 
-font_map=/home1/p11600/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts/fontmap
+font_map=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts/fontmap
 font_dir=
 
 echo_help=no
@@ -33,9 +33,9 @@ if test "x$font_map" = "x"; then
 fi
 
 if test "x$font_dir" = "x"; then
-	font_dir="/home1/p11600/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts"
+	font_dir="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts"
 else
-	font_dir="$font_dir /home1/p11600/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts"
+	font_dir="$font_dir /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/share/libwmf/fonts"
 fi
 
 if test $echo_help = yes; then

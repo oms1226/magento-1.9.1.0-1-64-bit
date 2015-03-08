@@ -1,7 +1,7 @@
 #!/bin/sh
-PHPRC=/home1/p11600/magento-1.9.1.0-1-64-bit/php/etc
+PHPRC=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/etc
 export PHPRC
-PHP_PEAR_SYSCONF_DIR=/home1/p11600/magento-1.9.1.0-1-64-bit/php/etc
+PHP_PEAR_SYSCONF_DIR=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/etc
 export PHP_PEAR_SYSCONF_DIR
-. /home1/p11600/magento-1.9.1.0-1-64-bit/php/../scripts/setenv.sh
-exec /home1/p11600/magento-1.9.1.0-1-64-bit/php/bin/php-cgi.bin "$@"
+. /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/../scripts/setenv.sh
+exec /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/bin/php-cgi.bin "$@"

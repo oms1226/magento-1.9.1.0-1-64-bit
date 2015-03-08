@@ -25,8 +25,8 @@ define('PEAR_IGNORE_BACKTRACE', 1);
 /**
  * @nodep Gtk
  */
-if ('/home1/p11600/magento-1.9.1.0-1-64-bit/php/lib/php' != '@'.'include_path'.'@') {
-    ini_set('include_path', '/home1/p11600/magento-1.9.1.0-1-64-bit/php/lib/php');
+if ('/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/lib/php' != '@'.'include_path'.'@') {
+    ini_set('include_path', '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/lib/php');
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

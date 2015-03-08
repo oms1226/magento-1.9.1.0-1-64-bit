@@ -6,7 +6,7 @@
 # This definition stops the following lines choking if HOME isn't
 # defined.
 HOME			= .
-RANDFILE = /home1/p11600/magento-1.9.1.0-1-64-bit/common/openssl/.rnd
+RANDFILE = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/openssl/.rnd
 
 # Extra OBJECT IDENTIFIER info:
 #oid_file		= $ENV::HOME/.oid

@@ -1,6 +1,6 @@
 # Copyright (C) 2010, International Business Machines Corporation. All Rights Reserved.
 
-prefix = /home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix = /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix = ${prefix}
 #bindir = ${exec_prefix}/bin
 libdir = ${exec_prefix}/lib
@@ -11,7 +11,7 @@ baselibs = -lpthread -ldl -lm
 #sbindir = ${exec_prefix}/sbin
 #mandir = ${datarootdir}/man
 #sysconfdir = ${prefix}/etc
-CFLAGS = -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64 -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings -Wno-long-long $(THREADSCFLAGS) 
+CFLAGS = -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64 -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Wmissing-prototypes -Wwrite-strings -Wno-long-long $(THREADSCFLAGS) 
 #CXXFLAGS =  -O2 -W -Wall -ansi -pedantic -Wpointer-arith -Wwrite-strings -Wno-long-long $(THREADSCXXFLAGS) 
 DEFS = -DHAVE_CONFIG_H 
 UNICODE_VERSION=6.0

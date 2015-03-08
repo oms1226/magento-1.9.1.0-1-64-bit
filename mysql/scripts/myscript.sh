@@ -4,7 +4,7 @@ if ! [ -e tmp ] ;then
 fi
 chmod 777 tmp
 
-scripts/mysql_install_db --port=3306 --socket=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock  --datadir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data --pid-file=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid > /dev/null
+scripts/mysql_install_db --port=3306 --socket=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock  --datadir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data --pid-file=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid > /dev/null
 
 if [ `uname -s` = "SunOS" ]; then
     U=`id|sed -e s/uid=//g -e s/\(.*//g`
@@ -20,9 +20,9 @@ fi
 
 
 
-/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/scripts/ctl.sh start mysql > /dev/null
+/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/scripts/ctl.sh start mysql > /dev/null
 sleep 10
-bin/mysql -S /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "UPDATE mysql.user SET Password=PASSWORD('$2') WHERE User='root';"
-bin/mysql -S /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "UPDATE mysql.user SET Password=PASSWORD('$3') WHERE User='';"
-bin/mysql -S /home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "FLUSH PRIVILEGES;"
+bin/mysql -S /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "UPDATE mysql.user SET Password=PASSWORD('$2') WHERE User='root';"
+bin/mysql -S /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "UPDATE mysql.user SET Password=PASSWORD('$3') WHERE User='';"
+bin/mysql -S /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock -u root -e "FLUSH PRIVILEGES;"
 

@@ -30,7 +30,7 @@
 #
 # Author: Thomas E. Dickey, 2006-on
 
-prefix="/home1/p11600/magento-1.9.1.0-1-64-bit/common"
+prefix="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -120,10 +120,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/home1/p11600/magento-1.9.1.0-1-64-bit/common/share/terminfo"
+		echo "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/home1/p11600/magento-1.9.1.0-1-64-bit/common/share/terminfo"
+		echo "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/share/terminfo"
 		;;
 	--termpath)
 		echo ""

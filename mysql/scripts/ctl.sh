@@ -1,8 +1,8 @@
 #!/bin/sh
 
-MYSQL_PIDFILE=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid
+MYSQL_PIDFILE=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid
 
-MYSQL_START="/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld_safe --defaults-file=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/my.cnf --port=3306 --socket=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock  --datadir=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data --log-error=/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.log  --pid-file=$MYSQL_PIDFILE --lower-case-table-names=1 "
+MYSQL_START="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld_safe --defaults-file=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/my.cnf --port=3306 --socket=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock  --datadir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data --log-error=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.log  --pid-file=$MYSQL_PIDFILE --lower-case-table-names=1 "
 
 MYSQL_STATUS=""
 MYSQL_PID=""

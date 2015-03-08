@@ -17,7 +17,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Prerequisites for using ${exec_prefix}/lib and ${datarootdir}/locale.
-prefix="/home1/p11600/magento-1.9.1.0-1-64-bit/common"
+prefix="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common"
 exec_prefix="${prefix}"
 datarootdir="${prefix}/share"
 datadir="${datarootdir}"

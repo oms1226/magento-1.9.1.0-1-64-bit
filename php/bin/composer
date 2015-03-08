@@ -1,4 +1,4 @@
 #!/bin/sh
-. /home1/p11600/magento-1.9.1.0-1-64-bit/php/../scripts/setenv.sh
+. /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/../scripts/setenv.sh
 
-exec /home1/p11600/magento-1.9.1.0-1-64-bit/php/bin/composer.phar "$@"
+exec /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/bin/composer.phar "$@"

@@ -35,7 +35,7 @@ BEGIN {
 
 	# ****************************
 	# information on MySQL
-	$MYSQL     = '/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysql';    # path to mysql executable
+	$MYSQL     = '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysql';    # path to mysql executable
 	$SERVER    = '3.21';
 	$MYSQL_OPT = ' --batch --unbuffered';
 	$ACCESS_DB = 'mysql';		 # name of DB with grant-tables
@@ -50,7 +50,7 @@ BEGIN {
 	$ACCESS_U_BCK = 'user_backup';   
 	$ACCESS_D_BCK = 'db_backup';     
         $DIFF      = '/usr/bin/diff'; 
-        $MYSQLDUMP = '/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin/mysqldump';
+        $MYSQLDUMP = '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqldump';
                                          #path to mysqldump executable
 
         $MYSQLADMIN= 'http://foobar.com/MySQLadmin';
@@ -480,8 +480,8 @@ MySQLaccess::Report::Print_Header();
   if (-f "./$script_conf") {
      require "./$script_conf";
   }
-  elsif (-f "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/$script_conf") {
-     require "/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/$script_conf";
+  elsif (-f "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/$script_conf") {
+     require "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/$script_conf";
   }
   elsif (-f "/etc/$script_conf") {
      require "/etc/$script_conf";
@@ -950,7 +950,7 @@ sub MergeConfigFile {
 # =================================
 sub MergeConfigFiles {
     my ($name,$pass,$uid,$gid,$quota,$comment,$gcos,$dir,$shell) = getpwuid $<;
-    MergeConfigFile("/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/my.cnf");
+    MergeConfigFile("/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/my.cnf");
     MergeConfigFile("/etc/my.cnf");
     MergeConfigFile("$dir/.my.cnf");
 }

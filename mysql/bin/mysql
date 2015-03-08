@@ -1,1 +1,12 @@
-wrapper
+#!/bin/sh
+LD_LIBRARY_PATH=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+case "$@" in
+  *--no-defaults*)
+    exec $0.bin "$@"
+    ;;
+  *--defaults-extra-file*)
+    exec $0.bin "$@"
+    ;;
+esac
+exec $0.bin --defaults-file=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/my.cnf "$@"

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/varnish/bin:/home1/p11600/magento-1.9.1.0-1-64-bit/sqlite/bin:/home1/p11600/magento-1.9.1.0-1-64-bit/php/bin:/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/bin:/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin:/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin:$PATH"
-BITNAMI_ROOT="/home1/p11600/magento-1.9.1.0-1-64-bit"
+PATH="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/varnish/bin:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/sqlite/bin:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/bin:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin:$PATH"
+BITNAMI_ROOT="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit"
 export BITNAMI_ROOT
 
 exec /bin/bash --noprofile --norc

@@ -2,16 +2,31 @@
 [Sat Mar 07 02:09:59.322797 2015] [ssl:warn] [pid 4430] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 07 02:09:59.323046 2015] [lbmethod_heartbeat:notice] [pid 4430] AH02282: No slotmem from mod_heartmonitor
 [Sat Mar 07 02:09:59.348215 2015] [mpm_prefork:notice] [pid 4430] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
-[Sat Mar 07 02:09:59.348252 2015] [core:notice] [pid 4430] AH00094: Command line: '/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Sat Mar 07 02:09:59.348252 2015] [core:notice] [pid 4430] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
 [Sat Mar 07 02:10:01.834183 2015] [mpm_prefork:notice] [pid 4430] AH00169: caught SIGTERM, shutting down
 [Sat Mar 07 02:10:05.953077 2015] [ssl:warn] [pid 4458] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 07 02:10:06.011226 2015] [ssl:warn] [pid 4459] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 07 02:10:06.011492 2015] [lbmethod_heartbeat:notice] [pid 4459] AH02282: No slotmem from mod_heartmonitor
 [Sat Mar 07 02:10:06.034794 2015] [mpm_prefork:notice] [pid 4459] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
-[Sat Mar 07 02:10:06.034832 2015] [core:notice] [pid 4459] AH00094: Command line: '/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Sat Mar 07 02:10:06.034832 2015] [core:notice] [pid 4459] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
 [Sat Mar 07 02:10:07.949307 2015] [mpm_prefork:notice] [pid 4459] AH00169: caught SIGTERM, shutting down
 [Sat Mar 07 02:10:12.083526 2015] [ssl:warn] [pid 4570] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 07 02:10:12.144812 2015] [ssl:warn] [pid 4572] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 07 02:10:12.145051 2015] [lbmethod_heartbeat:notice] [pid 4572] AH02282: No slotmem from mod_heartmonitor
 [Sat Mar 07 02:10:12.168088 2015] [mpm_prefork:notice] [pid 4572] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
-[Sat Mar 07 02:10:12.168125 2015] [core:notice] [pid 4572] AH00094: Command line: '/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Sat Mar 07 02:10:12.168125 2015] [core:notice] [pid 4572] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Fri Mar 06 17:17:20.513666 2015] [ssl:warn] [pid 21639] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 06 17:17:20.565025 2015] [ssl:warn] [pid 21640] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 06 17:17:20.565187 2015] [lbmethod_heartbeat:notice] [pid 21640] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 06 17:17:20.583012 2015] [core:warn] [pid 21640] AH00098: pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 06 17:17:20.584679 2015] [mpm_prefork:notice] [pid 21640] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
+[Fri Mar 06 17:17:20.584705 2015] [core:notice] [pid 21640] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Fri Mar 06 17:34:35.589303 2015] [mpm_prefork:notice] [pid 21640] AH00169: caught SIGTERM, shutting down
+[Fri Mar 06 17:36:25.860974 2015] [ssl:warn] [pid 1491] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 06 17:36:25.911105 2015] [ssl:warn] [pid 1492] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 06 17:36:25.911238 2015] [lbmethod_heartbeat:notice] [pid 1492] AH02282: No slotmem from mod_heartmonitor
+[Fri Mar 06 17:36:25.971224 2015] [mpm_prefork:notice] [pid 1492] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
+[Fri Mar 06 17:36:25.971258 2015] [core:notice] [pid 1492] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Sun Mar 08 11:51:56.157184 2015] [pagespeed:warn] [pid 1496] [mod_pagespeed 1.9.32.3-4523 @1496] Failed to read cache clean timestamp /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/var/cache/mod_pagespeed/!clean!time!.  Doing an extra cache clean to be safe.
+[Sun Mar 08 11:51:56.158200 2015] [pagespeed:warn] [pid 1496] [mod_pagespeed 1.9.32.3-4523 @1496] Failed to read cache clean timestamp /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/var/cache/mod_pagespeed/!clean!time!.  Doing an extra cache clean to be safe.
+[Sun Mar 08 11:59:41.974893 2015] [mpm_prefork:notice] [pid 1492] AH00169: caught SIGTERM, shutting down

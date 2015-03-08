@@ -19,20 +19,20 @@
 # This file is generated from envvars-std.in
 #
 if test "x$LD_LIBRARY_PATH" != "x" ; then
-  LD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/lib:/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib:$LD_LIBRARY_PATH"
+  LD_LIBRARY_PATH="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/lib:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib:$LD_LIBRARY_PATH"
 else
-  LD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/lib:/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib"
+  LD_LIBRARY_PATH="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/lib:/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib"
 fi
 export LD_LIBRARY_PATH
 #
 
 
 	  
-PHP_PEAR_SYSCONF_DIR=/home1/p11600/magento-1.9.1.0-1-64-bit/php/etc
+PHP_PEAR_SYSCONF_DIR=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/etc
 export PHP_PEAR_SYSCONF_DIR
-PHPRC=/home1/p11600/magento-1.9.1.0-1-64-bit/php/etc
+PHPRC=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/etc
 export PHPRC
-LD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/lib:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/lib:$LD_LIBRARY_PATH"
 export LD_LIBRARY_PATH
-LD_LIBRARY_PATH="/home1/p11600/magento-1.9.1.0-1-64-bit/sqlite/lib:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/sqlite/lib:$LD_LIBRARY_PATH"
 export LD_LIBRARY_PATH

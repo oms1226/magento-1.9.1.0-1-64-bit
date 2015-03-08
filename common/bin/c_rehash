@@ -6,8 +6,8 @@
 
 my $openssl;
 
-my $dir = "/home1/p11600/magento-1.9.1.0-1-64-bit/common/openssl";
-my $prefix = "/home1/p11600/magento-1.9.1.0-1-64-bit/common";
+my $dir = "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/openssl";
+my $prefix = "/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common";
 
 if(defined $ENV{OPENSSL}) {
 	$openssl = $ENV{OPENSSL};

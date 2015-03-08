@@ -1,9 +1,9 @@
 #!/bin/sh
 
-HTTPD_PIDFILE=/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/logs/httpd.pid
+HTTPD_PIDFILE=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/logs/httpd.pid
 
 
-HTTPD="/home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf"
+HTTPD="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf"
 
 STATUSURL="http://localhost/server-status"
 HTTPD_STATUS=""
@@ -12,7 +12,7 @@ HTTPD_PID=""
 ERROR=0
 SERVER=both
 
-. /home1/p11600/magento-1.9.1.0-1-64-bit/apache2/bin/envvars
+. /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/envvars
 
 get_pid() {
     PID=""

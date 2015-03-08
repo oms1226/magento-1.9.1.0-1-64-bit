@@ -24,9 +24,9 @@
 #
 # Configuration variables
 #
-apr_builddir=/home1/p11600/magento-1.9.1.0-1-64-bit/common/build-1
-apr_builders=/home1/p11600/magento-1.9.1.0-1-64-bit/common/build-1
-top_builddir=/home1/p11600/magento-1.9.1.0-1-64-bit/common/build-1
+apr_builddir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/build-1
+apr_builders=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/build-1
+top_builddir=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/build-1
 
 # Some layouts require knowing what version we are at.
 APR_MAJOR_VERSION=1
@@ -41,9 +41,9 @@ LIBTOOL=$(SHELL) $(apr_builddir)/libtool
 # compilation and linking flags that are supposed to be set only by the user.
 # configure adds to them for tests, but we restore them at the end.
 #
-CFLAGS=-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64
-CPPFLAGS=-I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include
-LDFLAGS=-L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib
+CFLAGS=-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64
+CPPFLAGS=-I/bitnami/lampstack-linux-x64/output/sqlite/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include/sasl -I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include
+LDFLAGS=-L/bitnami/lampstack-linux-x64/output/sqlite/lib -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib
 LIBS=
 DEFS=-DHAVE_CONFIG_H
 

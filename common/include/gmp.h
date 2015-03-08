@@ -2216,7 +2216,7 @@ enum
 
 /* Define CC and CFLAGS which were used to build this version of GMP */
 #define __GMP_CC "gcc"
-#define __GMP_CFLAGS "-I/home1/p11600/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64"
+#define __GMP_CFLAGS "-I/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/include -fPIC -m64"
 
 /* Major version number is the value of __GNU_MP__ too, above and in mp.h. */
 #define __GNU_MP_VERSION 4

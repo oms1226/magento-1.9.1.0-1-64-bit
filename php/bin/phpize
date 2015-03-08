@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Variable declaration
-prefix='/home1/p11600/magento-1.9.1.0-1-64-bit/php'
-datarootdir='/home1/p11600/magento-1.9.1.0-1-64-bit/php/php'
+prefix='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php'
+datarootdir='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/php'
 exec_prefix="`eval echo ${prefix}`"
 phpdir="`eval echo ${exec_prefix}/lib/php`/build"
 includedir="`eval echo ${prefix}/include`/php"
@@ -152,7 +152,7 @@ phpize_copy_files()
 phpize_replace_prefix()
 {
   $SED \
-  -e "s#/home1/p11600/magento-1.9.1.0-1-64-bit/php#$prefix#" \
+  -e "s#/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php#$prefix#" \
   < "$phpdir/phpize.m4" > configure.in
 }
 

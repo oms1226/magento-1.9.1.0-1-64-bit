@@ -13,7 +13,7 @@ if [ -f "/usr/sbin/getenforce" ] && [ `id -u` = 0 ] ; then
     /usr/sbin/setenforce 0 2> /dev/null
 fi
 
-INSTALLDIR=/home1/p11600/magento-1.9.1.0-1-64-bit
+INSTALLDIR=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit
 
 if [ -r "$INSTALLDIR/scripts/setenv.sh" ]; then
 . "$INSTALLDIR/scripts/setenv.sh"

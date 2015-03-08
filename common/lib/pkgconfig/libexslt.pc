@@ -1,4 +1,4 @@
-prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -8,5 +8,5 @@ Name: libexslt
 Version: 0.8.17
 Description: EXSLT Extension library
 Requires: libxml-2.0
-Libs: -L${libdir} -lexslt -lxslt  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -lxml2 -lz -liconv -lm -ldl -lm 
+Libs: -L${libdir} -lexslt -lxslt  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -lxml2 -lz -liconv -lm -ldl -lm 
 Cflags: -I${includedir}

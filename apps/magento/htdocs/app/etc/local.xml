@@ -40,7 +40,7 @@
             </db>
             <default_setup>
                 <connection>
-                    <host><![CDATA[/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock]]></host>
+                    <host><![CDATA[/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock]]></host>
                     <username><![CDATA[bn_magento]]></username>
                     <password><![CDATA[11df449732]]></password>
                     <dbname><![CDATA[bitnami_magento]]></dbname>

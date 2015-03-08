@@ -100,7 +100,7 @@ elif [ -f "$basedir/include/mysql.h" ]; then
 fi
 
 version='5.5.42'
-socket='/home1/p11600/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'
+socket='/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'
 ldflags=''
 
 if [ 0 -eq 0 ]; then

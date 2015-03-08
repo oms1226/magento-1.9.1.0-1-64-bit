@@ -1,6 +1,6 @@
 #! /bin/sh
 
-prefix=/home1/p11600/magento-1.9.1.0-1-64-bit/common
+prefix=/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common
 exec_prefix=${prefix}
 exec_prefix_set=no
 includedir=${prefix}/include
@@ -65,7 +65,7 @@ while test $# -gt 0; do
 	;;
 
     --plugins)
-	echo /home1/p11600/magento-1.9.1.0-1-64-bit/common/lib/libxslt-plugins
+	echo /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib/libxslt-plugins
 	exit 0
 	;;
 
@@ -89,11 +89,11 @@ while test $# -gt 0; do
     shift
 done
 
-the_libs="-L${libdir} -lxslt  -L/home1/p11600/magento-1.9.1.0-1-64-bit/common/lib -lxml2 -lz -liconv -lm -ldl -lm  -lrt"
+the_libs="-L${libdir} -lxslt  -L/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/lib -lxml2 -lz -liconv -lm -ldl -lm  -lrt"
 if test "$includedir" != "/usr/include"; then
-    the_flags="$the_flags -I$includedir `/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/xml2-config --cflags`"
+    the_flags="$the_flags -I$includedir `/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin/xml2-config --cflags`"
 else
-    the_flags="$the_flags `/home1/p11600/magento-1.9.1.0-1-64-bit/common/bin/xml2-config --cflags`"
+    the_flags="$the_flags `/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/common/bin/xml2-config --cflags`"
 fi
 
 if $cflags; then

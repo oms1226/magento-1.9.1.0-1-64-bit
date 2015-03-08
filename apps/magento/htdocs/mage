@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # REPLACE with your PHP5 binary path (example: /usr/local/php5/bin/php )
-MAGE_PHP_BIN="/home1/p11600/magento-1.9.1.0-1-64-bit/php/bin/php"
+MAGE_PHP_BIN="/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/php/bin/php"
 
 MAGE_PHP_SCRIPT="mage.php"
 DOWNLOADER_PATH='downloader'
