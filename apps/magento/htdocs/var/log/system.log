@@ -1,0 +1,212 @@
+2015-03-10T05:35:32+00:00 DEBUG (7): Varien_Event_Observer Object
+(
+    [_data:protected] => Array
+        (
+            [event] => Varien_Event Object
+                (
+                    [_observers:protected] => Varien_Event_Observer_Collection Object
+                        (
+                            [_observers:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [_data:protected] => Array
+                        (
+                            [store] => Mage_Core_Model_Store Object
+                                (
+                                    [_cacheTag:protected] => 1
+                                    [_eventPrefix:protected] => store
+                                    [_eventObject:protected] => store
+                                    [_priceFilter:protected] => 
+                                    [_website:protected] => 
+                                    [_group:protected] => 
+                                    [_configCache:protected] => 
+                                    [_configCacheBaseNodes:protected] => Array
+                                        (
+                                            [0] => catalog/price/scope
+                                            [1] => web/secure/base_url
+                                            [2] => web/secure/use_in_adminhtml
+                                            [3] => web/secure/use_in_frontend
+                                            [4] => web/url/use_store
+                                            [5] => web/unsecure/base_url
+                                            [6] => web/seo/use_rewrites
+                                            [7] => web/unsecure/base_link_url
+                                            [8] => web/secure/base_link_url
+                                            [9] => general/locale/code
+                                        )
+
+                                    [_dirCache:protected] => Array
+                                        (
+                                        )
+
+                                    [_urlCache:protected] => Array
+                                        (
+                                        )
+
+                                    [_baseUrlCache:protected] => Array
+                                        (
+                                        )
+
+                                    [_session:protected] => 
+                                    [_isAdminSecure:protected] => 
+                                    [_isFrontSecure:protected] => 
+                                    [_frontendName:protected] => 
+                                    [_isReadOnly:Mage_Core_Model_Store:private] => 
+                                    [_resourceName:protected] => core/store
+                                    [_resource:protected] => 
+                                    [_resourceCollectionName:protected] => core/store_collection
+                                    [_dataSaveAllowed:protected] => 1
+                                    [_isObjectNew:protected] => 
+                                    [_data:protected] => Array
+                                        (
+                                            [group_id] => 1
+                                            [name] => English
+                                            [code] => en
+                                            [is_active] => 1
+                                            [sort_order] => 1
+                                            [is_default] => 
+                                            [store_id] => 2
+                                            [website_id] => 1
+                                        )
+
+                                    [_hasDataChanges:protected] => 
+                                    [_origData:protected] => Array
+                                        (
+                                            [store_id] => 2
+                                            [code] => en
+                                            [website_id] => 1
+                                            [group_id] => 1
+                                            [name] => English
+                                            [sort_order] => 1
+                                            [is_active] => 0
+                                        )
+
+                                    [_idFieldName:protected] => 
+                                    [_isDeleted:protected] => 
+                                    [_oldFieldsMap:protected] => Array
+                                        (
+                                        )
+
+                                    [_syncFieldsMap:protected] => Array
+                                        (
+                                        )
+
+                                )
+
+                            [name] => store_edit
+                        )
+
+                    [_hasDataChanges:protected] => 
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [store] => Mage_Core_Model_Store Object
+                (
+                    [_cacheTag:protected] => 1
+                    [_eventPrefix:protected] => store
+                    [_eventObject:protected] => store
+                    [_priceFilter:protected] => 
+                    [_website:protected] => 
+                    [_group:protected] => 
+                    [_configCache:protected] => 
+                    [_configCacheBaseNodes:protected] => Array
+                        (
+                            [0] => catalog/price/scope
+                            [1] => web/secure/base_url
+                            [2] => web/secure/use_in_adminhtml
+                            [3] => web/secure/use_in_frontend
+                            [4] => web/url/use_store
+                            [5] => web/unsecure/base_url
+                            [6] => web/seo/use_rewrites
+                            [7] => web/unsecure/base_link_url
+                            [8] => web/secure/base_link_url
+                            [9] => general/locale/code
+                        )
+
+                    [_dirCache:protected] => Array
+                        (
+                        )
+
+                    [_urlCache:protected] => Array
+                        (
+                        )
+
+                    [_baseUrlCache:protected] => Array
+                        (
+                        )
+
+                    [_session:protected] => 
+                    [_isAdminSecure:protected] => 
+                    [_isFrontSecure:protected] => 
+                    [_frontendName:protected] => 
+                    [_isReadOnly:Mage_Core_Model_Store:private] => 
+                    [_resourceName:protected] => core/store
+                    [_resource:protected] => 
+                    [_resourceCollectionName:protected] => core/store_collection
+                    [_dataSaveAllowed:protected] => 1
+                    [_isObjectNew:protected] => 
+                    [_data:protected] => Array
+                        (
+                            [group_id] => 1
+                            [name] => English
+                            [code] => en
+                            [is_active] => 1
+                            [sort_order] => 1
+                            [is_default] => 
+                            [store_id] => 2
+                            [website_id] => 1
+                        )
+
+                    [_hasDataChanges:protected] => 
+                    [_origData:protected] => Array
+                        (
+                            [store_id] => 2
+                            [code] => en
+                            [website_id] => 1
+                            [group_id] => 1
+                            [name] => English
+                            [sort_order] => 1
+                            [is_active] => 0
+                        )
+
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_hasDataChanges:protected] => 1
+    [_origData:protected] => 
+    [_idFieldName:protected] => 
+    [_isDeleted:protected] => 
+    [_oldFieldsMap:protected] => Array
+        (
+        )
+
+    [_syncFieldsMap:protected] => Array
+        (
+        )
+
+)
+
+2015-03-10T05:35:32+00:00 DEBUG (7): We just made an Observer!

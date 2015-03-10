@@ -1,4 +1,6 @@
-find . -name '*.pid' -exec git rm {} \; \
+./ctlscript.sh stop \
+&& find . -name '*.pid' -exec git rm --cached {} \; \
+&& find . -name '*.log' -exec git rm --cached {} \; \
 && echo "pid is deleted!" \
 && git add . \
 && echo "add is completed!" \
