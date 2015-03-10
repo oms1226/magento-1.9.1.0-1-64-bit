@@ -479,3 +479,9 @@
 [Mon Mar 09 09:46:56.659644 2015] [core:notice] [pid 6162] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
 [Mon Mar 09 22:11:58.086210 2015] [authz_core:error] [pid 6176] [client 80.82.64.116:53064] AH01630: client denied by server configuration: /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/cgi-bin
 [Tue Mar 10 00:46:32.153175 2015] [mpm_prefork:notice] [pid 6162] AH00169: caught SIGTERM, shutting down
+[Tue Mar 10 01:00:36.575465 2015] [ssl:warn] [pid 9410] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:00:36.628031 2015] [ssl:warn] [pid 9411] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:00:36.628161 2015] [lbmethod_heartbeat:notice] [pid 9411] AH02282: No slotmem from mod_heartmonitor
+[Tue Mar 10 01:00:36.649136 2015] [mpm_prefork:notice] [pid 9411] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
+[Tue Mar 10 01:00:36.649170 2015] [core:notice] [pid 9411] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Tue Mar 10 01:04:11.304724 2015] [mpm_prefork:notice] [pid 9411] AH00169: caught SIGTERM, shutting down
