@@ -485,3 +485,16 @@
 [Tue Mar 10 01:00:36.649136 2015] [mpm_prefork:notice] [pid 9411] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
 [Tue Mar 10 01:00:36.649170 2015] [core:notice] [pid 9411] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
 [Tue Mar 10 01:04:11.304724 2015] [mpm_prefork:notice] [pid 9411] AH00169: caught SIGTERM, shutting down
+[Tue Mar 10 01:42:38.333224 2015] [ssl:warn] [pid 10172] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:42:38.381307 2015] [ssl:warn] [pid 10173] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:42:38.381448 2015] [lbmethod_heartbeat:notice] [pid 10173] AH02282: No slotmem from mod_heartmonitor
+[Tue Mar 10 01:42:38.399425 2015] [core:warn] [pid 10173] AH00098: pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 10 01:42:38.401149 2015] [mpm_prefork:notice] [pid 10173] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
+[Tue Mar 10 01:42:38.401178 2015] [core:notice] [pid 10173] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Tue Mar 10 01:43:08.466114 2015] [mpm_prefork:notice] [pid 10173] AH00169: caught SIGTERM, shutting down
+[Tue Mar 10 01:43:47.144653 2015] [ssl:warn] [pid 10531] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:43:47.194007 2015] [ssl:warn] [pid 10532] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 10 01:43:47.194146 2015] [lbmethod_heartbeat:notice] [pid 10532] AH02282: No slotmem from mod_heartmonitor
+[Tue Mar 10 01:43:47.213758 2015] [mpm_prefork:notice] [pid 10532] AH00163: Apache/2.4.12 (Unix) OpenSSL/1.0.1k PHP/5.4.37 configured -- resuming normal operations
+[Tue Mar 10 01:43:47.213790 2015] [core:notice] [pid 10532] AH00094: Command line: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/bin/httpd -f /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apache2/conf/httpd.conf'
+[Tue Mar 10 01:44:20.385195 2015] [mpm_prefork:notice] [pid 10532] AH00169: caught SIGTERM, shutting down
