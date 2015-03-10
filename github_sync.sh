@@ -9,6 +9,6 @@ find . -name '*.pid' -exec git rm {} \; \
 && echo "git log" \
 && echo "log is ended!" \
 && git status \
-&& echo "argument0:"$0 \
-&& git commit -m '$0' \
+&& echo "argument0:${0}" \
+&& git commit -m "${0}" \
 && git push -u oms1226 taewolInAWS
