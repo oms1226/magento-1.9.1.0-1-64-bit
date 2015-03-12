@@ -246,7 +246,7 @@ class Mage_Oauth_Model_Server
         }
         $protocolParamsNotSet = !$this->_protocolParams;
 
-        $url = $this->_request->getScheme() . '://' . $this->_request->getHttpHost() . $this->_request->getRequestUri();
+        $url = $this->_request->getScheme() . '://' . $this->_request->getHttpHost() . ':8080' . $this->_request->getRequestUri();
 
         if (($queryString = Zend_Uri_Http::fromString($url)->getQuery())) {
             foreach (explode('&', $queryString) as $paramToValue) {
@@ -541,7 +541,7 @@ class Mage_Oauth_Model_Server
             $this->_consumer->getSecret(),
             $this->_token->getSecret(),
             $this->_request->getMethod(),
-            $this->_request->getScheme() . '://' . $this->_request->getHttpHost() . $this->_request->getRequestUri()
+            $this->_request->getScheme() . '://' . $this->_request->getHttpHost() . ':8080' . $this->_request->getRequestUri()
         );
 
         if ($calculatedSign != $this->_protocolParams['oauth_signature']) {
