@@ -1,3 +1,11 @@
+#!/bin/bash
+if [ ${1} ];then
+    echo "argument0:${1}"
+else
+    echo "comment is needed!"
+    exit
+fi
+
 ./ctlscript.sh stop \
 && find . -name '*.pid' -exec git rm --cached {} \; \
 && find . -name '*.log' -exec git rm --cached {} \; \
