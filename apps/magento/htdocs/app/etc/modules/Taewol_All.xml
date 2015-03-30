@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Taewol_Restconnect>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Taewol_Restconnect>
+    </modules>
+</config>

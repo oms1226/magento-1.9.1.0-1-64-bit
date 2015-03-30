@@ -153,6 +153,7 @@ class Zend_Uri_Http extends Zend_Uri
         // Validate the URI
         if ($this->valid() === false) {
             #require_once 'Zend/Uri/Exception.php';
+            Mage::log("oms1226::throw new Zend_Uri_Exception('Invalid URI supplied'):".$this->valid());
             throw new Zend_Uri_Exception('Invalid URI supplied');
         }
     }
@@ -231,6 +232,7 @@ class Zend_Uri_Http extends Zend_Uri
                          ? preg_replace('~^\[([^]]+)\]$~', '\1', $matches[5])  // Strip wrapper [] from IPv6 literal
                          : '';
         $this->_port     = isset($matches[7]) === true ? $matches[7] : '';
+        Mage::log("oms1226::matches:".$matches);
     }
 
     /**
@@ -272,6 +274,13 @@ class Zend_Uri_Http extends Zend_Uri
     public function valid()
     {
         // Return true if and only if all parts of the URI have passed validation
+        Mage::log("oms1226::validateUsername:".$this->validateUsername());
+        Mage::log("oms1226::validatePassword:".$this->validatePassword());
+        Mage::log("oms1226::validateHost:".$this->validateHost());
+        Mage::log("oms1226::validatePort:".$this->validatePort());
+        Mage::log("oms1226::validatePath:".$this->validatePath());
+        Mage::log("oms1226::validateQuery:".$this->validateQuery());
+        Mage::log("oms1226::validateFragment:".$this->validateFragment());
         return $this->validateUsername()
            and $this->validatePassword()
            and $this->validateHost()
@@ -484,6 +493,8 @@ class Zend_Uri_Http extends Zend_Uri
      */
     public function validatePort($port = null)
     {
+        Mage::log("oms1226::port:".$port);
+        Mage::log("oms1226::this->port:".$this->_port);
         if ($port === null) {
             $port = $this->_port;
         }

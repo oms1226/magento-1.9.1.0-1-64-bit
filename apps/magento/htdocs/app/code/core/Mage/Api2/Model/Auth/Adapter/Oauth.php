@@ -50,7 +50,7 @@ class Mage_Api2_Model_Auth_Adapter_Oauth extends Mage_Api2_Model_Auth_Adapter_Ab
         try {
             $token    = $oauthServer->checkAccessRequest();
             $userType = $token->getUserType();
-
+	Mage::log($userType);
             if (Mage_Oauth_Model_Token::USER_TYPE_ADMIN == $userType) {
                 $userParamsObj->id = $token->getAdminId();
             } else {

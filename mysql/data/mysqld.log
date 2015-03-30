@@ -436,3 +436,328 @@ Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/
 150312 10:05:28 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
 
 150312 10:05:28 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150312 10:05:56 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150312 10:05:56 [Note] Plugin 'FEDERATED' is disabled.
+150312 10:05:56 InnoDB: The InnoDB memory heap is disabled
+150312 10:05:56 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150312 10:05:56 InnoDB: Compressed tables use zlib 1.2.3
+150312 10:05:56 InnoDB: Using Linux native AIO
+150312 10:05:56 InnoDB: Initializing buffer pool, size = 128.0M
+150312 10:05:56 InnoDB: Completed initialization of buffer pool
+150312 10:05:56 InnoDB: highest supported file format is Barracuda.
+150312 10:05:56  InnoDB: Waiting for the background threads to start
+150312 10:05:57 InnoDB: 5.5.42 started; log sequence number 10187874
+150312 10:05:57 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150312 10:05:57 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150312 10:05:57 [Note] Server socket created on IP: '127.0.0.1'.
+150312 10:05:57 [Note] Event Scheduler: Loaded 0 events
+150312 10:05:57 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150313  1:35:19 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150313  1:35:19 [Note] Event Scheduler: Purging the queue. 0 events
+150313  1:35:19  InnoDB: Starting shutdown...
+150313  1:35:21  InnoDB: Shutdown completed; log sequence number 10280221
+150313  1:35:21 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150313 01:35:21 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150313 01:35:24 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150313  1:35:24 [Note] Plugin 'FEDERATED' is disabled.
+150313  1:35:24 InnoDB: The InnoDB memory heap is disabled
+150313  1:35:24 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150313  1:35:24 InnoDB: Compressed tables use zlib 1.2.3
+150313  1:35:24 InnoDB: Using Linux native AIO
+150313  1:35:24 InnoDB: Initializing buffer pool, size = 128.0M
+150313  1:35:24 InnoDB: Completed initialization of buffer pool
+150313  1:35:24 InnoDB: highest supported file format is Barracuda.
+150313  1:35:24  InnoDB: Waiting for the background threads to start
+150313  1:35:25 InnoDB: 5.5.42 started; log sequence number 10280221
+150313  1:35:25 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150313  1:35:25 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150313  1:35:25 [Note] Server socket created on IP: '127.0.0.1'.
+150313  1:35:25 [Note] Event Scheduler: Loaded 0 events
+150313  1:35:25 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150316 16:08:23 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150316 16:08:23 [Note] Event Scheduler: Purging the queue. 0 events
+150316 16:08:23  InnoDB: Starting shutdown...
+150316 16:08:25  InnoDB: Shutdown completed; log sequence number 10445247
+150316 16:08:25 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150316 16:08:25 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150316 16:08:28 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150316 16:08:28 [Note] Plugin 'FEDERATED' is disabled.
+150316 16:08:28 InnoDB: The InnoDB memory heap is disabled
+150316 16:08:28 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150316 16:08:28 InnoDB: Compressed tables use zlib 1.2.3
+150316 16:08:28 InnoDB: Using Linux native AIO
+150316 16:08:28 InnoDB: Initializing buffer pool, size = 128.0M
+150316 16:08:28 InnoDB: Completed initialization of buffer pool
+150316 16:08:28 InnoDB: highest supported file format is Barracuda.
+150316 16:08:29  InnoDB: Waiting for the background threads to start
+150316 16:08:30 InnoDB: 5.5.42 started; log sequence number 10445247
+150316 16:08:30 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150316 16:08:30 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150316 16:08:30 [Note] Server socket created on IP: '127.0.0.1'.
+150316 16:08:30 [Note] Event Scheduler: Loaded 0 events
+150316 16:08:30 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150316 16:18:11 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150316 16:18:11 [Note] Event Scheduler: Purging the queue. 0 events
+150316 16:18:11  InnoDB: Starting shutdown...
+150316 16:18:12  InnoDB: Shutdown completed; log sequence number 10451782
+150316 16:18:12 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150316 16:18:12 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150316 16:18:16 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150316 16:18:16 [Note] Plugin 'FEDERATED' is disabled.
+150316 16:18:16 InnoDB: The InnoDB memory heap is disabled
+150316 16:18:16 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150316 16:18:16 InnoDB: Compressed tables use zlib 1.2.3
+150316 16:18:16 InnoDB: Using Linux native AIO
+150316 16:18:16 InnoDB: Initializing buffer pool, size = 128.0M
+150316 16:18:16 InnoDB: Completed initialization of buffer pool
+150316 16:18:16 InnoDB: highest supported file format is Barracuda.
+150316 16:18:16  InnoDB: Waiting for the background threads to start
+150316 16:18:17 InnoDB: 5.5.42 started; log sequence number 10451782
+150316 16:18:17 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150316 16:18:17 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150316 16:18:17 [Note] Server socket created on IP: '127.0.0.1'.
+150316 16:18:17 [Note] Event Scheduler: Loaded 0 events
+150316 16:18:17 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150317  5:19:24 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150317  5:19:24 [Note] Event Scheduler: Purging the queue. 0 events
+150317  5:19:24  InnoDB: Starting shutdown...
+150317  5:19:25  InnoDB: Shutdown completed; log sequence number 10713658
+150317  5:19:25 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150317 05:19:25 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150317 05:19:29 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150317  5:19:29 [Note] Plugin 'FEDERATED' is disabled.
+150317  5:19:29 InnoDB: The InnoDB memory heap is disabled
+150317  5:19:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150317  5:19:29 InnoDB: Compressed tables use zlib 1.2.3
+150317  5:19:29 InnoDB: Using Linux native AIO
+150317  5:19:29 InnoDB: Initializing buffer pool, size = 128.0M
+150317  5:19:29 InnoDB: Completed initialization of buffer pool
+150317  5:19:29 InnoDB: highest supported file format is Barracuda.
+150317  5:19:29  InnoDB: Waiting for the background threads to start
+150317  5:19:30 InnoDB: 5.5.42 started; log sequence number 10713658
+150317  5:19:30 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150317  5:19:30 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150317  5:19:30 [Note] Server socket created on IP: '127.0.0.1'.
+150317  5:19:30 [Note] Event Scheduler: Loaded 0 events
+150317  5:19:30 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150319  4:53:24 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150319  4:53:24 [Note] Event Scheduler: Purging the queue. 0 events
+150319  4:53:24  InnoDB: Starting shutdown...
+150319  4:53:25  InnoDB: Shutdown completed; log sequence number 10817501
+150319  4:53:25 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150319 04:53:25 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150319 04:53:29 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150319  4:53:29 [Note] Plugin 'FEDERATED' is disabled.
+150319  4:53:29 InnoDB: The InnoDB memory heap is disabled
+150319  4:53:29 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150319  4:53:29 InnoDB: Compressed tables use zlib 1.2.3
+150319  4:53:29 InnoDB: Using Linux native AIO
+150319  4:53:29 InnoDB: Initializing buffer pool, size = 128.0M
+150319  4:53:29 InnoDB: Completed initialization of buffer pool
+150319  4:53:29 InnoDB: highest supported file format is Barracuda.
+150319  4:53:29  InnoDB: Waiting for the background threads to start
+150319  4:53:30 InnoDB: 5.5.42 started; log sequence number 10817501
+150319  4:53:30 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150319  4:53:30 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150319  4:53:30 [Note] Server socket created on IP: '127.0.0.1'.
+150319  4:53:30 [Note] Event Scheduler: Loaded 0 events
+150319  4:53:30 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150319  5:42:54 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150319  5:42:54 [Note] Event Scheduler: Purging the queue. 0 events
+150319  5:42:54  InnoDB: Starting shutdown...
+150319  5:42:56  InnoDB: Shutdown completed; log sequence number 10880094
+150319  5:42:56 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150319 05:42:56 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150319 05:42:59 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150319  5:42:59 [Note] Plugin 'FEDERATED' is disabled.
+150319  5:42:59 InnoDB: The InnoDB memory heap is disabled
+150319  5:42:59 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150319  5:42:59 InnoDB: Compressed tables use zlib 1.2.3
+150319  5:42:59 InnoDB: Using Linux native AIO
+150319  5:42:59 InnoDB: Initializing buffer pool, size = 128.0M
+150319  5:42:59 InnoDB: Completed initialization of buffer pool
+150319  5:42:59 InnoDB: highest supported file format is Barracuda.
+150319  5:42:59  InnoDB: Waiting for the background threads to start
+150319  5:43:00 InnoDB: 5.5.42 started; log sequence number 10880094
+150319  5:43:00 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150319  5:43:00 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150319  5:43:00 [Note] Server socket created on IP: '127.0.0.1'.
+150319  5:43:00 [Note] Event Scheduler: Loaded 0 events
+150319  5:43:00 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  0:46:26 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  0:46:26 [Note] Event Scheduler: Purging the queue. 0 events
+150320  0:46:26  InnoDB: Starting shutdown...
+150320  0:46:27  InnoDB: Shutdown completed; log sequence number 10895487
+150320  0:46:27 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 00:46:27 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 00:46:31 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  0:46:31 [Note] Plugin 'FEDERATED' is disabled.
+150320  0:46:31 InnoDB: The InnoDB memory heap is disabled
+150320  0:46:31 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  0:46:31 InnoDB: Compressed tables use zlib 1.2.3
+150320  0:46:31 InnoDB: Using Linux native AIO
+150320  0:46:31 InnoDB: Initializing buffer pool, size = 128.0M
+150320  0:46:31 InnoDB: Completed initialization of buffer pool
+150320  0:46:31 InnoDB: highest supported file format is Barracuda.
+150320  0:46:31  InnoDB: Waiting for the background threads to start
+150320  0:46:32 InnoDB: 5.5.42 started; log sequence number 10895487
+150320  0:46:32 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  0:46:32 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  0:46:32 [Note] Server socket created on IP: '127.0.0.1'.
+150320  0:46:32 [Note] Event Scheduler: Loaded 0 events
+150320  0:46:32 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  4:36:02 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  4:36:02 [Note] Event Scheduler: Purging the queue. 0 events
+150320  4:36:02  InnoDB: Starting shutdown...
+150320  4:36:04  InnoDB: Shutdown completed; log sequence number 10995075
+150320  4:36:04 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 04:36:04 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 04:36:07 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  4:36:07 [Note] Plugin 'FEDERATED' is disabled.
+150320  4:36:07 InnoDB: The InnoDB memory heap is disabled
+150320  4:36:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  4:36:07 InnoDB: Compressed tables use zlib 1.2.3
+150320  4:36:07 InnoDB: Using Linux native AIO
+150320  4:36:07 InnoDB: Initializing buffer pool, size = 128.0M
+150320  4:36:07 InnoDB: Completed initialization of buffer pool
+150320  4:36:07 InnoDB: highest supported file format is Barracuda.
+150320  4:36:07  InnoDB: Waiting for the background threads to start
+150320  4:36:08 InnoDB: 5.5.42 started; log sequence number 10995075
+150320  4:36:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  4:36:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  4:36:08 [Note] Server socket created on IP: '127.0.0.1'.
+150320  4:36:08 [Note] Event Scheduler: Loaded 0 events
+150320  4:36:08 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  4:57:14 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  4:57:14 [Note] Event Scheduler: Purging the queue. 0 events
+150320  4:57:14  InnoDB: Starting shutdown...
+150320  4:57:15  InnoDB: Shutdown completed; log sequence number 10995648
+150320  4:57:15 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 04:57:15 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 04:57:19 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  4:57:19 [Note] Plugin 'FEDERATED' is disabled.
+150320  4:57:19 InnoDB: The InnoDB memory heap is disabled
+150320  4:57:19 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  4:57:19 InnoDB: Compressed tables use zlib 1.2.3
+150320  4:57:19 InnoDB: Using Linux native AIO
+150320  4:57:19 InnoDB: Initializing buffer pool, size = 128.0M
+150320  4:57:19 InnoDB: Completed initialization of buffer pool
+150320  4:57:19 InnoDB: highest supported file format is Barracuda.
+150320  4:57:19  InnoDB: Waiting for the background threads to start
+150320  4:57:20 InnoDB: 5.5.42 started; log sequence number 10995648
+150320  4:57:20 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  4:57:20 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  4:57:20 [Note] Server socket created on IP: '127.0.0.1'.
+150320  4:57:20 [Note] Event Scheduler: Loaded 0 events
+150320  4:57:20 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  5:35:07 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  5:35:07 [Note] Event Scheduler: Purging the queue. 0 events
+150320  5:35:07  InnoDB: Starting shutdown...
+150320  5:35:08  InnoDB: Shutdown completed; log sequence number 10995648
+150320  5:35:08 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 05:35:08 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 05:38:40 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  5:38:40 [Note] Plugin 'FEDERATED' is disabled.
+150320  5:38:40 InnoDB: The InnoDB memory heap is disabled
+150320  5:38:40 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  5:38:40 InnoDB: Compressed tables use zlib 1.2.3
+150320  5:38:40 InnoDB: Using Linux native AIO
+150320  5:38:40 InnoDB: Initializing buffer pool, size = 128.0M
+150320  5:38:40 InnoDB: Completed initialization of buffer pool
+150320  5:38:40 InnoDB: highest supported file format is Barracuda.
+150320  5:38:40  InnoDB: Waiting for the background threads to start
+150320  5:38:41 InnoDB: 5.5.42 started; log sequence number 10995648
+150320  5:38:41 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  5:38:41 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  5:38:41 [Note] Server socket created on IP: '127.0.0.1'.
+150320  5:38:41 [Note] Event Scheduler: Loaded 0 events
+150320  5:38:41 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  8:58:14 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  8:58:14 [Note] Event Scheduler: Purging the queue. 0 events
+150320  8:58:14  InnoDB: Starting shutdown...
+150320  8:58:15  InnoDB: Shutdown completed; log sequence number 11000976
+150320  8:58:15 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 08:58:15 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 08:58:53 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  8:58:53 [Note] Plugin 'FEDERATED' is disabled.
+150320  8:58:53 InnoDB: The InnoDB memory heap is disabled
+150320  8:58:53 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  8:58:53 InnoDB: Compressed tables use zlib 1.2.3
+150320  8:58:53 InnoDB: Using Linux native AIO
+150320  8:58:53 InnoDB: Initializing buffer pool, size = 128.0M
+150320  8:58:53 InnoDB: Completed initialization of buffer pool
+150320  8:58:53 InnoDB: highest supported file format is Barracuda.
+150320  8:58:53  InnoDB: Waiting for the background threads to start
+150320  8:58:54 InnoDB: 5.5.42 started; log sequence number 11000976
+150320  8:58:54 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  8:58:54 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  8:58:54 [Note] Server socket created on IP: '127.0.0.1'.
+150320  8:58:54 [Note] Event Scheduler: Loaded 0 events
+150320  8:58:54 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150320  9:21:18 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150320  9:21:18 [Note] Event Scheduler: Purging the queue. 0 events
+150320  9:21:18  InnoDB: Starting shutdown...
+150320  9:21:19  InnoDB: Shutdown completed; log sequence number 11000976
+150320  9:21:19 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150320 09:21:19 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
+150320 09:21:23 mysqld_safe Starting mysqld.bin daemon with databases from /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data
+150320  9:21:23 [Note] Plugin 'FEDERATED' is disabled.
+150320  9:21:23 InnoDB: The InnoDB memory heap is disabled
+150320  9:21:23 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+150320  9:21:23 InnoDB: Compressed tables use zlib 1.2.3
+150320  9:21:23 InnoDB: Using Linux native AIO
+150320  9:21:23 InnoDB: Initializing buffer pool, size = 128.0M
+150320  9:21:23 InnoDB: Completed initialization of buffer pool
+150320  9:21:23 InnoDB: highest supported file format is Barracuda.
+150320  9:21:23  InnoDB: Waiting for the background threads to start
+150320  9:21:24 InnoDB: 5.5.42 started; log sequence number 11000976
+150320  9:21:24 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+150320  9:21:24 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+150320  9:21:24 [Note] Server socket created on IP: '127.0.0.1'.
+150320  9:21:24 [Note] Event Scheduler: Loaded 0 events
+150320  9:21:24 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.42'  socket: '/home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+150330  7:59:59 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Normal shutdown
+
+150330  7:59:59 [Note] Event Scheduler: Purging the queue. 0 events
+150330  7:59:59  InnoDB: Starting shutdown...
+150330  8:00:00  InnoDB: Shutdown completed; log sequence number 12389542
+150330  8:00:00 [Note] /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/bin/mysqld.bin: Shutdown complete
+
+150330 08:00:01 mysqld_safe mysqld from pid file /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/mysql/data/mysqld.pid ended
