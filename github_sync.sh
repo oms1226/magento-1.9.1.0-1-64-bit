@@ -18,6 +18,8 @@ fi
 && echo "mod_pagespedd is deleted!" \
 && git rm --cached -r ./apps/magento/htdocs/var/report \
 && echo "report is deleted!" \
+&& git rm --cached -r ./apps/magento/htdocs/media/catalog/product/cache \
+&& echo "product-cache is deleted!" \
 && echo "git log" \
 && echo "log is ended!" \
 && git status \
