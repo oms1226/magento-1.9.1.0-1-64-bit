@@ -60,6 +60,7 @@ class Taewol_RestConnect_TestController extends Mage_Core_Controller_Front_Actio
         // Get HTTP client from access token object
         $restClient = $acessToken->getHttpClient($params);
         // Set REST resource URL
+        //$restClient->setUri('http://ec2-52-11-121-54.us-west-2.compute.amazonaws.com:8080/magento/api/rest/customers');
         $restClient->setUri('http://ec2-52-11-121-54.us-west-2.compute.amazonaws.com:8080/magento/api/rest/customers');
         // In Magento it is neccesary to set json or xml headers in order to work
         $restClient->setHeaders('Accept', 'application/json');

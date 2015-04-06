@@ -1,0 +1,9 @@
+2015-03-30T08:53:50+00:00 ERR (3): 
+exception 'Mage_Api2_Exception' with message 'oauth_problem=internal_error&message=oms1226::8080:8080 Invalid URI supplied' in /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/app/code/core/Mage/Api2/Model/Auth/Adapter/Oauth.php:61
+Stack trace:
+#0 /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/app/code/core/Mage/Api2/Model/Auth/Adapter.php(83): Mage_Api2_Model_Auth_Adapter_Oauth->getUserParams(Object(Mage_Api2_Model_Request))
+#1 /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/app/code/core/Mage/Api2/Model/Auth.php(59): Mage_Api2_Model_Auth_Adapter->getUserParams(Object(Mage_Api2_Model_Request))
+#2 /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/app/code/core/Mage/Api2/Model/Server.php(152): Mage_Api2_Model_Auth->authenticate(Object(Mage_Api2_Model_Request))
+#3 /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/app/code/core/Mage/Api2/Model/Server.php(103): Mage_Api2_Model_Server->_authenticate(Object(Mage_Api2_Model_Request))
+#4 /home/ubuntu/magento/magento-1.9.1.0-1-64-bit/apps/magento/htdocs/api.php(67): Mage_Api2_Model_Server->run()
+#5 {main}

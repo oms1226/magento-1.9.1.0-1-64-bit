@@ -232,7 +232,11 @@ class Zend_Uri_Http extends Zend_Uri
                          ? preg_replace('~^\[([^]]+)\]$~', '\1', $matches[5])  // Strip wrapper [] from IPv6 literal
                          : '';
         $this->_port     = isset($matches[7]) === true ? $matches[7] : '';
-        Mage::log("oms1226::matches:".$matches);
+        Mage::log("oms1226::schemeSpecific:".$schemeSpecific);
+	if( $this->_port == '8080:8080' ) {
+            //throw new Zend_Uri_Exception('oms1226::8080:8080 Invalid URI supplied');
+        $this->_port     = '8080';
+        }
     }
 
     /**
@@ -523,7 +527,9 @@ class Zend_Uri_Http extends Zend_Uri
         }
 
         $oldPort     = $this->_port;
+        Mage::log("oms1226::this->oldport:".$this->_port);
         $this->_port = $port;
+        Mage::log("oms1226::this->newport:".$this->_port);
 
         return $oldPort;
     }
